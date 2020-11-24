@@ -1,4 +1,7 @@
 /* Global Styling */
+body{
+  background: #eeee;
+}
 main{
   min-height: 80vh;
 }

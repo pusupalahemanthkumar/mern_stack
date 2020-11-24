@@ -5,7 +5,7 @@ import { Card } from "react-bootstrap";
 // Defining functional component here.
 const Product = ({ product }) => {
   return (
-    <Card className="my-3 p-3 rounded">
+    <Card className="my-3 p-3 rounded card bg-light mb-3">
       <a href={`/product/${product._id}`}>
         <Card.Img src={product.image} variant="top"></Card.Img>
       </a>
