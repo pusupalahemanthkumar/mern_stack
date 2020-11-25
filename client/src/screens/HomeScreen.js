@@ -5,6 +5,7 @@ import {Row,Col} from "react-bootstrap";
 import products from "../products";
 import Product from "../components/product";
 
+// Defining functional component here.
 const HomeScreen = () => {
     return (
       <>
